@@ -425,3 +425,46 @@ body{
   top: 90px;
   left: 190px;
 }
+/* challenge 12 */
+.challenge12 {
+        background: #48BF7D;
+        height: 300px;
+        width: 400px;
+        position: relative;
+      }
+
+      .challenge12 div {
+        position: absolute;
+        top: 50px;
+      }
+
+      .challenge12 .a {
+        width: 140px;
+        height: 140px;
+        border-radius: 150px;
+        border: 30px solid #FEFF58;
+        left: 85px;
+        background: #48BF7D;
+      }
+
+      .challenge12 .b {
+        height: 200px;
+        width: 30px;
+        left: 185px;
+        background: #3E5AA9;
+      }
+
+      .challenge12 .c {
+        height: 200px;
+        width: 60px;
+        left: 215px;
+        background: #FEFF58;
+      }
+
+      .challenge12 .d {
+        height: 170px;
+        width: 40px;
+        left: 245px;
+        background: #48BF7D;
+      }
+    
