@@ -1,0 +1,427 @@
+body{
+    background-color: bisque;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    background-color: black;
+}
+.challange1 .main{
+          position: relative;
+          height:300px ;
+          width: 400px;
+          background: #423f36;
+        }
+      .challange1 .c {
+        height: 25px;
+        width: 50px;
+        background: #bbbbbb;
+        border-radius: 360px 360px 0 0;
+        position: absolute;
+        left: 175px;
+        top: 30px;
+      }
+      .challange1 .out {
+        width: 120px;
+        height: 180px;
+        background: #bbbbbb;
+        border: 10px solid #423f36;
+        position: absolute;
+        top: 50px;
+        left: 130px;
+        border-radius: 40px;
+      }
+      .challange1 .in {
+        border-radius: 20px;
+        width: 100px;
+        height: 160px;
+        background: #423f36;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .challange1 .red {
+        border-radius: 0 0 10px 10px;
+        width: 80px;
+        height: 20px;
+        background: #ec2f28;
+        position: absolute;
+        top: 130px;
+        left: 10px;
+      }
+      /* challange 2 */
+      
+        .challenge2 {
+          background: #c05f6a;
+          height: 300px;
+          position: relative;
+          width: 400px;
+        }
+       .challenge2  .cont2 div {
+          background: #c05f6a;
+          position: absolute;
+          top: 0;
+          width: 30px;
+        }
+       .challenge2  .cont2 div:first-child {
+          height: 300px;
+          left: 135px;
+        }
+        .challenge2 .cont2 div:last-child {
+          height: 300px;
+          left: 235px;
+        }
+        .challenge2 .cont {
+          display: flex;
+          flex-direction: column;
+          margin: 45px auto 0;
+          width: 270px;
+          gap: 30px;
+        }
+        .challenge2 .cont div {
+          background: #f2eaa8;
+          margin: auto;
+          height: 30px;
+        }
+        .challenge2 .b1 {
+          width: 270px;
+        }
+       .challenge2  .b2 {
+          width: 230px;
+        }
+        .challenge2 .b3 {
+          width: 190px;
+        }
+        .challenge2 .b5 {
+          width: 150px;
+        }
+        /* challennge 3 */
+         .challenge3 {
+            background: #f28bbb;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
+          }
+         .challenge3 .circ {
+            position: absolute;
+            left: 25px;
+            bottom: -54px;
+            width: 348px;
+            height: 409px;
+            border-radius: 161.5px;
+            background: #b03f7d;
+          }
+         .challenge3 .box {
+            position: absolute;
+            left: 25px;
+            top: 109.7px;
+            height: 80px;
+            width: 135px;
+            background: #680039;
+          }
+         .challenge3 .b2 {
+            left: 238px;
+          }
+         .challenge3 .circle {
+            position: absolute;
+            left: 25px;
+            bottom: -40px;
+            width: 300px;
+            height: 335px;
+            border-radius: 37%;
+            border: 24px solid #b03f7d;
+            background: #f28bbb;
+          }
+          /* challenge 4 */
+           .challenge4{
+    background-color:#504B72;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
+  }
+ .challenge4 .container{
+    margin: 40px 0px 0px 32px;
+  }
+ .challenge4 .row1{
+    display:flex;   
+  }
+  
+ .challenge4 .row1 div {
+   
+    display: flex; 
+    width: 100px;
+    height: 60px;
+    background: #FFFBCC;
+  }
+ .challenge4 .row1 div:nth-child(even){
+    background-color:transparent;
+  }
+
+ .challenge4 .row2{
+    display:flex;
+  }
+ .challenge4 .row2 div {
+    width: 100px;
+    height: 20px;
+    background: #FFFBCC;
+  }
+ .challenge4 .row2 div:nth-child(odd){
+    background-color:transparent;
+  }
+ .challenge4 .row2 div:nth-child(even){
+    width:120px;
+  }
+ .challenge4 .row1 div:nth-child(even){
+    width:120px;
+  }
+/* challenge 5 */
+.challenge5 {
+            background-color: #ceedff;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
+          }
+          .challenge5 .circ {
+            position: relative;
+            bottom: 90px;
+            left: 25px;
+            width: 350px;
+            height: 440px;
+            border-radius: 99%;
+            background-color: #2bbbf3;
+          }
+          .challenge5 .smcirc {
+            background-color: #ceedff;
+            position: absolute;
+            bottom: 103px;
+            left: 49px;
+            height: 395px;
+            width: 302px;
+            border-radius: 100%;
+          }
+          .challenge5 .white {
+            position: absolute;
+            top: 110px;
+            left: 25px;
+            width: 350px;
+            height: 80px;
+            background-color: #05476c;
+          }
+          .challenge5 .mwhite {
+            position: absolute;
+            top: 190px;
+            left: 25px;
+            width: 350px;
+            height: 180px;
+            background-color: #ceedff;
+          }
+          /* challenge 6 */
+          .challenge6{background:#2F5A76;position:relative; height:300px;width:400px;}
+          .challenge6 .c{position:absolute;right:0;width:265px;height:30px;background:#F5BB60}
+          .challenge6 .b{bottom:0}
+          .challenge6 .p{position:absolute;top:135px;margin-left:25px;display:flex}
+          .challenge6 .d{width:30.1px;height:30.1px;background:#F5BB60;border-radius:50px}
+          .challenge6 .l{margin-left:99.9px;}
+          /* challenge 7 */
+          .challenge7 {
+              position: relative;
+              margin: 0;
+              background: #32295a;
+              height: 300px;
+              width: 400px;
+            }
+            .challenge7 .br {
+              border-radius: 300px;
+            }
+            .challenge7 .ab {
+              position: absolute;
+            }
+           .challenge7  .bc {
+              background: #48bf7d;
+            }
+            .challenge7 .bb {
+              background: #32295a;
+            }
+            .challenge7 .m {
+              margin: auto;
+              width: 300px;
+              height: 300px;
+            }
+            .challenge7 .n {
+              width: 200px;
+              height: 200px;
+              top: 10px;
+              left: 100px;
+            }
+            .challenge7 .o {
+              width: 100px;
+              height: 100px;
+              bottom: 10px;
+              left: 50px;
+            }
+            .challenge7 .p {
+              width: 50px;
+              height: 50px;
+              top: 10px;
+              left: 25px;
+            }
+            /* challenge 8 */
+            .challenge8 {
+          background: #243d83;
+          position: relative;
+          height: 300px;
+          width: 400px;
+        }
+        .challenge8 .bl {
+          width: 100px;
+          height: 120px;
+          position: absolute;
+          left: 162px;
+          top: 52px;
+          background: #6592cf;
+        }
+        .challenge8 .b {
+          top: 112px;
+          left: 122px;
+          z-index: 2;
+        }
+        .challenge8 .wh {
+          width: 72px;
+          height: 72px;
+          position: absolute;
+          left: 110px;
+          top: 172px;
+          background: #ffffff;
+        }
+        .challenge8 .w {
+          top: 100px;
+          left: 162px;
+        }
+        /* Challenge 9 */
+        
+        .challenge9 {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background: #f0f0f0; /* optional for better visibility */
+  }
+
+  .challenge9 div {
+    height: 110px;
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .challenge9 .c1 {
+    width: 200px;
+    background: #5528A5;
+    top: 69.9px;
+    left: 100px;
+  }
+
+  .challenge9 .c2 {
+    width: 240px;
+    background: #6855BF;
+    top: 109.6px;
+    left: 80px;
+  }
+
+  .challenge9 .c3 {
+    width: 280px;
+    background: #9E8DEC;
+    top: 149.6px;
+    left: 60px;
+  }
+  /* challenge 10 */
+  
+  .challenge10 {
+    background: #DC9DA6;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+
+  .challenge10 div {
+    background: #6E3C3C;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+  }
+
+  .challenge10 .a {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 150px;
+    border-radius: 50px;
+  }
+
+  .challenge10 .b {
+    width: 40px;
+    height: 40px;
+    background: #DC9DA6;
+    top: 130px;
+    left: 180px;
+    border-radius: 50px;
+  }
+
+  .challenge10 .c {
+    height: 200px;
+    width: 20px;
+    top: 50px;
+    left: 190px;
+  }
+
+  .challenge10 .d {
+    rotate: 45deg;
+  }
+
+  .challenge10 .e {
+    rotate: 90deg;
+  }
+  /* challenge 11 */
+  
+.challenge11 {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  background: #EBE77E;
+}
+
+.challenge11 div {
+  position: absolute;
+}
+
+.challenge11 .d {
+  border: 20px solid #7E6293;
+  background: #EBE77E;
+  border-radius: 100px;
+}
+
+.challenge11 .a {
+  width: 140px;
+  height: 140px;
+  top: 60px;
+  left: 110px;
+}
+
+.challenge11 .b {
+  width: 60px;
+  height: 60px;
+  top: 100px;
+  left: 150px;
+}
+
+.challenge11 .c {
+  height: 60px;
+  width: 20px;
+  background: #7E6293;
+  top: 90px;
+  left: 190px;
+}
